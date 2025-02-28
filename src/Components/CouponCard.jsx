@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const CouponCard = ({ image, title, description, link, id }) => {
   description =
     description.length > 50 ? description.slice(0, 50) + "..." : description;
-    console.log(image,name,description)
+    //console.log(image,name,description)
 
   return (
     <Link to={`/description/${id}`} className="block group">
